@@ -1,6 +1,8 @@
 # Backend do projeto HERO
 
-Este repositório é a parte do servidor para a aplicação HERO.
+Este repositório contém a parte do servidor para a aplicação HERO.
+
+## Passos tomados no desenvolvimento
 
 1. A aplicação foi inicializada com o seguinte comando:
 
@@ -20,7 +22,7 @@ Este repositório é a parte do servidor para a aplicação HERO.
 
 ```npm install nodemon -D```
 
-6. O *query builder* **Knex.js** foi adicionado com o seguinte comando?
+6. O *query builder* **Knex.js** foi adicionado com o seguinte comando:
 
 ```npm install knex```
 
@@ -32,7 +34,38 @@ Este repositório é a parte do servidor para a aplicação HERO.
 
 ```npx knex init```
 
-9. Criada a pasta ```src``` para a inserção de todo o código fonte.
+9. Criada a pasta ```src``` para a inserção de todo o código fonte, inclusive ```index.js```.
 
 10. Criado o arquivo ```routes.js``` em ```src``` para a organização de todas as rotas da aplicação.
 
+11. Criada a primeira *migration* com o seguinte comando:
+
+```npx knex migrate:make create_ongs```
+
+12. Gerada cada tabela de banco de dados com o seguinte comando:
+
+```npx knex migrate:latest```
+
+## Entidades
+
+* ONG
+
+* Caso
+
+## Funcionalidades
+
+* Login de ONG
+
+* Logout de ONG
+
+* Cadastro de ONG
+
+* Cadastrar caso
+
+* Listar caso específico de uma ONG
+
+* Deletar caso
+
+* Listar todos os casos
+
+* Entrar em contato com a ONG
