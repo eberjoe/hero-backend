@@ -5,6 +5,12 @@ const connection = require('./database/connection');
 // desacopla o módulo de rotas do Express em uma variável
 const routes = express.Router();
 
+routes.get('/ongs', async (request, response) => {
+    const ongs = await connection('ongs').select('*');
+
+    return response.json(ongs);
+});
+
 routes.post('/ongs', async (request, response) => {
     const { name, email, whatsapp, city, uf } = request.body;
 
