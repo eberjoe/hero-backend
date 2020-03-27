@@ -1,6 +1,6 @@
 # Backend do projeto HERO
 
-Este repositório contém a parte do servidor para a aplicação HERO.
+Este repositório contém a parte do servidor para o projeto **HERO**, uma aplicação que conecta voluntários a ONGs.
 
 ## Passos tomados no desenvolvimento
 
