@@ -46,6 +46,10 @@ Este repositório contém a parte do servidor para a aplicação HERO.
 
 ```npx knex migrate:latest```
 
+13. Adicionada a dependência de segurança **CORS** com o seguinte comando:
+
+```npm install cors```
+
 ## Entidades
 
 * ONG
