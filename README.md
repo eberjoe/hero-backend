@@ -2,7 +2,7 @@
 
 Este repositório contém a parte do servidor para o projeto **HERO**, uma aplicação que conecta voluntários a ONGs.
 
-## Passos tomados no desenvolvimento
+## Montagem do ambiente de desenvolvimento
 
 1. A aplicação foi inicializada com o seguinte comando:
 
